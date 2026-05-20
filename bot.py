@@ -14,6 +14,7 @@ BOT_NAME        = os.environ.get("BOT_NAME", "봇")
 ADMIN_ROLE_NAME = os.environ.get("ADMIN_ROLE", "관리자")
 DATA_FILE       = "data.json"
 MAX_HISTORY     = 30  # 기억할 최대 대화 횟수
+SYSTEM_PROMPT   = os.environ.get("SYSTEM_PROMPT", "시스템 프롬프트")
 
 # ── 새 Gemini SDK 초기화 ──────────────────────────────────
 # ✅ google-generativeai (구버전) → google-genai (신버전)
